@@ -3,6 +3,9 @@
 A basic Python Django REST CRUD API example
 
 ## Running the project
+- In the terminal run `cp .env.example .env` then set `SECRET_KEY` in `.env` to secure value. Value can be generated [here](https://djecrety.ir/)
+
+
 - Set up and activate virtual environment. Python 3.6 or later is required
 ```
 python 3 -m venv venv
@@ -18,7 +21,7 @@ pip install -r requirements.txt
 ```
 python3 manage.py runserver
 ```
-- After application, you can test out endpoints
+- After application runs, you can test out endpoints
 
 **REST Endpoints**
 
